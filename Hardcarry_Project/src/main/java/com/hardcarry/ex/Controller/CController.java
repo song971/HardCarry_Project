@@ -15,7 +15,7 @@ public class CController {
 	
 	@RequestMapping("main_page")
 	public String main_page(Model model) {
-		System.out.println("=========main 페이지 (main_page.jsp) 페이지 접근==========");
+		System.out.println("=========main 페이지 (main_page.jsp) 페이지 접근===========");
 		return "main_page";
 	}
 	
